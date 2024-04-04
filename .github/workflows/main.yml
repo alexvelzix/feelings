@@ -27,7 +27,7 @@ jobs:
       - run: mv Runner.app/ Payload
         working-directory: build/ios/iphoneos
 
-      - name: Zip output
+      - name: Zip outputg
         run: zip -qq -r -9 FlutterIpaExport.ipa Payload
         working-directory: build/ios/iphoneos
 
